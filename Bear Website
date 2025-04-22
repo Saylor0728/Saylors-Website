@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Scratch Page</title>
+    <link rel="stylesheet" href="scratch-style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to ALL ABOut BEAR</h1>
+        <p>Learn more about my love for my dog, Bear!</p>
+        <a href="#tableau-graph">Jump to My Graph</a> <!-- On-page anchor -->
+    </header>
+
+    <section>
+        <h2>Facts About Bear</h2>
+        <ol>
+            <li> Name and Birthday
+                <ul>
+                    <li>Bear- named after Bear Lake</li>
+                    <li>May 24, 2024</li>
+                </ul>
+            </li>
+            <li>Favorite Activites
+                <ul>
+                    <li>Going on walks</li>
+                    <li>Tanning and laying on the grass</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Some Pics of Bear</h2>
+        <img src="IMG_5355.jpeg" alt="Looking Cute" width="600">
+        <!-- Replace with your own image link -->
+    </section>
+
+    <section>
+        <h2>Goldendooles vs Golden Retrievers (Video)</h2>
+        <iframe width="560" height="315" src="https://youtu.be/rwW7Wz1qYhg?si=sVjZb7R6f-zajyMF" 
+            title="Golden Retrievers VS Golden Doodle" frameborder="0" allowfullscreen></iframe>
+        <!-- Replace with your YouTube video link -->
+    </section>
+
+    <section id="tableau-graph">
+        <h2>Photography Statistics (Tableau Graph)</h2>
+        <!-- Tableau Public embed code will go here -->
+        <div class="tableauPlaceholder" id="viz1687369368256" style="position: relative">
+            <noscript><a href="#"><img alt="Graph" src="https://public.tableau.com/static/images/..." style="border: none" /></a></noscript>
+            <object class="tableauViz" style="display:none;">
+                <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F" />
+                <param name="embed_code_version" value="3" />
+                <param name="path" value="YOUR-PATH-HERE" />
+                <param name="toolbar" value="yes" />
+            </object>
+        </div>
+        <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    </section>
+
+    <footer>
+        <a href="index.html">Return to Home</a>
+    </footer>
+
+</body>
+</html>
